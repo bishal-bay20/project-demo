@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Signin Template">
+        <div class="slds-var-m-around_medium">
+            <h2 class="slds-text-heading_medium slds-var-m-around_medium">Signin Form</h2>
+            <lightning-input type="text" label="First Name"></lightning-input> 
+            <lightning-input type="text" label="First Last"></lightning-input> 
+            <lightning-input type="email" label="Email Address"></lightning-input> 
+            <lightning-input type="password" label="Password" class="slds-var-m-bottom_medium"></lightning-input> 
+
+            <lightning-button 
+            variant="brand"
+            title="Back"
+            label="Back"
+            onclick={handlerClick}
+            class="slds-var-m-around_medium"
+             ></lightning-button>
+             <lightning-button 
+             variant="success"
+             title="Signin"
+             label="Submit"
+             onclick={submitHandler}
+             class="slds-var-m-around_medium"
+              ></lightning-button>
+        </div>
+    </lightning-card>
+</template>

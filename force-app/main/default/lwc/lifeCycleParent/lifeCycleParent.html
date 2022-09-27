@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Parent Life Cycle">
+        <div class="slds-var-m-around_medium">
+            <template if:true={isChildVisibel}>
+                <lightning-button variant="brand" title="remove child" label="Remov child" onclick={clickHandler}></lightning-button>
+             </template> 
+
+         <template if:false={isChildVisibel}>
+            <lightning-button variant="brand" title="show child" label="show child" onclick={clickHandler}></lightning-button>
+         </template>    
+        
+         <template if:true={isChildVisibel}>
+            <c-life-cycle-child></c-life-cycle-child>
+         </template>
+                 
+        </div>
+    </lightning-card>
+</template>

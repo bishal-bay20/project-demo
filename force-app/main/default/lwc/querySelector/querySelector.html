@@ -1,0 +1,24 @@
+<template>
+    <template if:true={show}>
+        <c-quiz-app></c-quiz-app>
+    </template>
+    <lightning-card title="Query Selector">
+        <div class="slds-var-m-around_medium">
+    <h1><strong> Me and my frnds Name</strong></h1>
+    <template for:each={userName} for:item="user">
+        <div class="name" key={user}>
+            {user}
+        </div>
+    </template>
+    
+    <div class="child" lwc:dom="manual">
+
+    </div>
+    <button onclick={target}>Hitme</button>
+</div>
+</lightning-card>
+</template>
+
+
+
+

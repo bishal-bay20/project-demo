@@ -1,0 +1,22 @@
+        
+
+.btn {
+  border-radius: 5px;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+
+}
+
+@keyframes mymove {
+  from {width: 10%}
+  to {width: 100%}
+}
+
+.bg {
+    margin-top: 10px;
+    width: 100% ;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: #ddd;
+}

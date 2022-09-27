@@ -1,0 +1,18 @@
+
+
+h1 {
+    font-size: 30px;
+    color: red;
+}
+
+                /* c-css-child-demo{
+                        display: block;
+                        background-color: black;
+                    color: white;
+} */
+
+p{
+    display: block;
+    color: blueviolet;
+    background-color: #ddd;
+}
